@@ -1,0 +1,109 @@
+div.postsFriend {
+    padding: 30px 10px 10px 10px;
+    max-width: 500px;
+    margin: auto;
+    max-height: 400px;
+    overflow: auto;
+}
+
+div.postsFriend .postsFriend-chat-form {
+    padding: 20px 0 0 0;
+}
+
+div.postsFriend input:focus{
+    outline: 0;
+}
+
+div.postsFriend .postsFriend-chat-form .message {
+    display: flex;
+    flex-direction: row;
+}
+
+div.postsFriend .postsFriend-chat-form textarea {
+    width: 100%;
+}
+
+div.postsFriend .postsFriend-chat-form .message input {
+    flex: 1;
+    padding: 10px;
+
+    width: 100%;
+    resize: none;
+    height: 80px;
+
+    border: 2px solid #eee;
+    border-radius: 0 0 0 5px;
+    border-color: transparent transparent #eee #eee;
+}
+
+div.postsFriend .postsFriend-chat-form .message button {
+    padding: 3px 10px;
+
+    border: 2px solid #eee;
+    border-radius: 0 5px 5px 0;
+    border: none;
+
+    cursor: pointer;
+}
+
+div.postsFriend .postsFriend-chat-form .message button:hover {
+    background: rgb(6,137,243);
+    color: #fff;
+}
+
+div.postsFriend .holder {
+    max-height: 300px;
+    overflow: auto;
+}
+
+div.postsFriend .chat-messages {
+    padding: 20px 0 0 0;
+}
+
+div.postsFriend .chat-messages > div {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+div.postsFriend .chat-messages > div > div {
+    width: 90%;
+    min-width: 340px;
+}
+
+div.postsFriend .chat-messages > div.receivedPost > div {
+    text-align: left;
+    align-self: center;
+}
+
+div.postsFriend .chat-messages > div.received > div {
+    text-align: left;
+    align-self: flex-start;
+}
+
+div.postsFriend .chat-messages > div > div p.msg {
+    padding: 10px 15px;
+    font-weight: 100;
+}
+
+div.postsFriend .chat-messages > div > div p.details {
+    font-size: 10px;
+    color: #b1b1b1;
+}
+
+div.postsFriend .chat-messages > div.receivedPost > div p.details {
+    text-align: center;
+    border-radius: 2px 2px 2px 2px;
+}
+
+div.postsFriend .chat-messages > div.received > div p.msg {
+    background: #ededf7;
+    border-radius: 7px 7px 7px 0;
+}
+
+div.postsFriend .chat-messages > div.receivedPost > div p.msg {
+    background: rgb(65, 243, 6);
+    background: linear-gradient(121deg, rgb(51, 192, 20) 0%, rgb(46, 132, 36) 100%);
+    color: #fff;
+    border-radius: 2px 2px 2px 2px;
+}

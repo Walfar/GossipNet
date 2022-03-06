@@ -1,0 +1,23 @@
+div.username {
+    padding: 30px 10px 10px 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+div.username input {
+    padding: 10px;
+
+    border: 2px solid #eee;
+    margin: 5px 0;
+}
+
+div.username div.result {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

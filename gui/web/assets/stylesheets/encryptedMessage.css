@@ -1,0 +1,54 @@
+div.encryptedMessage {
+    padding: 30px 10px 10px 10px;
+    max-width: 500px;
+    margin: auto;
+    max-height: 400px;
+    overflow: auto;
+}
+
+div.encryptedMessage .encryptedMessage-chat-form {
+    padding: 20px 0 0 0;
+}
+
+div.encryptedMessage textarea:focus, div.encryptedMessage input:focus{
+    outline: 0;
+}
+
+div.encryptedMessage .encryptedMessage-chat-form textarea {
+    width: 100%;
+    resize: none;
+    height: 80px;
+    padding: 10px;
+
+    border: 2px solid #eee;
+    border-radius: 5px 5px 0 0;
+}
+
+div.encryptedMessage .encryptedMessage-chat-form .message {
+    display: flex;
+    flex-direction: row;
+}
+
+div.encryptedMessage .encryptedMessage-chat-form .message input {
+    flex: 1;
+    padding: 10px;
+
+    border: 2px solid #eee;
+    border-radius: 0 0 0 5px;
+    border-color: transparent transparent #eee #eee;
+}
+
+div.encryptedMessage .encryptedMessage-chat-form .message button {
+    padding: 3px 10px;
+
+    border: 2px solid #eee;
+    border-radius: 0 0 20px 0;
+    border: none;
+
+    cursor: pointer;
+}
+
+div.encryptedMessage .encryptedMessage-chat-form .message button:hover {
+    background: rgb(6,137,243);
+    color: #fff;
+}
