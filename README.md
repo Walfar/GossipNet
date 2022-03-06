@@ -20,3 +20,5 @@ We include four test suites in our code as stated in the report. To run all test
 ```bash
 make test
 ```
+
+[GossipNet Decentralized social network CS438 Project.pdf](https://github.com/Walfar/GossipNet/files/8192453/GossipNet.Decentralized.social.network.CS438.Project.pdf)
